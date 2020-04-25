@@ -1,9 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { rows } from "./data";
 import Thead from "./table/thead";
 import Tbody from "./table/tbody";
+
+import { rows } from "./mock_data";
 
 ReactDOM.render(
   <div>

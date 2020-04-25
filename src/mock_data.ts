@@ -1,10 +1,4 @@
-export type Row = {
-  id: string;
-  generation: string;
-  answers: number[];
-};
-
-export type Rows = Row[];
+import { Rows } from "./data_type";
 
 export const rows: Rows = [
   {
