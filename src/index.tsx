@@ -1,18 +1,13 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import Thead from "./table/thead";
-import Tbody from "./table/tbody";
-
+import Table from "./table/table";
 import { rows } from "./data/mock_data";
 
 ReactDOM.render(
-  <div>
+  <React.StrictMode>
     <h1>AAAA</h1>
-    <table>
-      <Thead />
-      <Tbody rows={rows} />
-    </table>
-  </div>,
+    <Table rows={rows} />
+  </React.StrictMode>,
   document.getElementById("root")
 );

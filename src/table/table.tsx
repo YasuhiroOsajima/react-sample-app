@@ -1,18 +1,20 @@
 import * as React from "react";
 
-import TR from "./tr";
+import Thead from "./thead";
+import Tbody from "./tbody";
 import { Rows } from "../data/data_type";
+
+import "./table.css";
 
 type Props = {
   rows: Rows;
 };
 
 const Component: React.FC<Props> = props => (
-  <tbody>
-    {props.rows.map(row => (
-      <TR key={row.id} {...row} />
-    ))}
-  </tbody>
+  <table>
+    <Thead />
+    <Tbody rows={props.rows} />
+  </table>
 );
 
 export default Component;

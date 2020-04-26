@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import "./thead.css";
+
 const Component: React.FC = () => (
   <thead>
     <tr>
