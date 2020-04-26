@@ -4,7 +4,7 @@ import * as ReactDOM from "react-dom";
 import Thead from "./table/thead";
 import Tbody from "./table/tbody";
 
-import { rows } from "./mock_data";
+import { rows } from "./data/mock_data";
 
 ReactDOM.render(
   <div>
