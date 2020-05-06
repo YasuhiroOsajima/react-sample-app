@@ -7,7 +7,17 @@ const Component: React.FC = () => (
     <Helmet>
       <title>Link page</title>
     </Helmet>
-    <Link to={`/table`}>Table page</Link>
+    <ul>
+      <li>
+        <Link to={`/table`}>Table page</Link>
+      </li>
+      <li>
+        <Link to={`/hooks_count`}>Hooks count page</Link>
+      </li>
+      <li>
+        <Link to={`/hooks_timer`}>Hooks timer page</Link>
+      </li>
+    </ul>
   </>
 );
 
