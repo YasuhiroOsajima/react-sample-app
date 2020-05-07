@@ -17,6 +17,9 @@ const Component: React.FC = () => (
       <li>
         <Link to={`/hooks_timer`}>Hooks timer page</Link>
       </li>
+      <li>
+        <Link to={`/redux`}>Redux page</Link>
+      </li>
     </ul>
   </>
 );
