@@ -6,6 +6,7 @@ import Page from "./table";
 import Hooks from "./hooks_count";
 import Timer from "./hooks_timer/containers/App";
 import Redux from "./redux/App";
+import Bootstrap from "./bootstrap";
 
 const Component: React.FC = () => (
   <React.StrictMode>
@@ -14,6 +15,7 @@ const Component: React.FC = () => (
       <Route path="/hooks_count" component={Hooks} />
       <Route path="/hooks_timer" component={Timer} />
       <Route path="/redux" component={Redux} />
+      <Route path="/bootstrap" component={Bootstrap} />
       <Route path="/" component={List} />
       <Redirect to="/" />;
     </Switch>

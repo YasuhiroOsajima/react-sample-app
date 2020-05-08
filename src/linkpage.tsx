@@ -20,6 +20,9 @@ const Component: React.FC = () => (
       <li>
         <Link to={`/redux`}>Redux page</Link>
       </li>
+      <li>
+        <Link to={`/bootstrap`}>Bootstrap page</Link>
+      </li>
     </ul>
   </>
 );
