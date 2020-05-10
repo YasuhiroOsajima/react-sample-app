@@ -16,7 +16,9 @@ import React from "react";
 // import ComponentA from "./components/useReducerA";
 // import ComponentB from "./components/useReducerB";
 // import { WrapComponent } from "./components/useCallback";
-import Check from "./components/useMemo";
+// import Check from "./components/useMemo";
+// import FocusInput from "./components/useRef1";
+import CountWithRef from "./components/useRef2";
 
 // export const UserContext = createContext();
 // export const LanguageContext = createContext();
@@ -33,7 +35,9 @@ function App() {
       {/* <EffectFetchById /> */}
       {/* <CounterReducer /> */}
       {/* <WrapComponent /> */}
-      <Check />
+      {/* <Check /> */}
+      {/* <FocusInput /> */}
+      <CountWithRef />
     </div>
   );
 
