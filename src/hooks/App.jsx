@@ -4,31 +4,31 @@ import React from "react";
 //import React, { useReducer, useEffect } from "react";
 //import axios from "axios";
 
-// import Counter from "./components/useState/useState1";
-// import From from "./components/useState/useState2";
-// import Item from "./components/useState/useState3";
+// import Counter from "./components/1_useState/useState1";
+// import From from "./components/1_useState/useState2";
+// import Item from "./components/1_useState/useState3";
 
-// import EffectCount from "./components/useEffect/useEffect1";
-// import EffectPosition from "./components/useEffect/useEffect2";
-// import EffectFetch from "./components/useEffect/useEffect3";
+// import EffectCount from "./components/2_useEffect/useEffect1";
+// import EffectPosition from "./components/2_useEffect/useEffect2";
+// import EffectFetch from "./components/2_useEffect/useEffect3";
 // import EffectFetchById from "./components/useEffect/useEffect4";
 
-// import ComponentP from "./components/useContext/useContextP";
+// import ComponentP from "./components/3_useContext/useContextP";
 
-// import CounterReducer from "./components/useReducer/useReducer1";
-// import ComponentA from "./components/useReducer/useReducerA";
-// import ComponentB from "./components/useReducer/useReducerB";
+// import CounterReducer from "./components/4_useReducer/useReducer1";
+// import ComponentA from "./components/4_useReducer/useReducerA";
+// import ComponentB from "./components/4_useReducer/useReducerB";
 
-// import WrapComponent from "./components/useCallback/useCallback";
+// import WrapComponent from "./components/5_useCallback/useCallback";
 
-// import Check from "./components/useMemo/useMemo";
+// import Check from "./components/6_useMemo/useMemo";
 
-// import FocusInput from "./components/useRef/useRef1";
-// import CountWithRef from "./components/useRef/useRef2";
+// import FocusInput from "./components/7_useRef/useRef1";
+// import CountWithRef from "./components/7_useRef/useRef2";
 
-// import DocTitleUpdateOne from "./components/CustomHooks/CustomHooks1A";
-// import DocTitleUpdateTwo from "./components/CustomHooks/CustomHooks1B";
-import Form from "./components/CustomHooks/CustomHooks2A";
+// import DocTitleUpdateOne from "./components/8_CustomHooks/CustomHooks1A";
+// import DocTitleUpdateTwo from "./components/8_CustomHooks/CustomHooks1B";
+import Form from "./components/8_CustomHooks/CustomHooks2A";
 
 // export const UserContext = createContext();
 // export const LanguageContext = createContext();
