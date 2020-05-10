@@ -7,7 +7,7 @@ import Button from "./useCallbackButton";
 // use React.memo + useCallback.
 // React.memo cache function component and not generate new object if it was not changed.
 // useCallback cache function and not generate new object if watching value was not changed.
-export const WrapComponent = () => {
+const WrapComponent = () => {
   const [age, setAge] = useState(30);
   const [score, setScore] = useState(100);
 
@@ -29,3 +29,5 @@ export const WrapComponent = () => {
     </div>
   );
 };
+
+export default WrapComponent;

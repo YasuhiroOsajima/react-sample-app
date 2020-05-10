@@ -4,21 +4,27 @@ import React from "react";
 //import React, { useReducer, useEffect } from "react";
 //import axios from "axios";
 
-// import Counter from "./components/useState1";
-// import From from "./components/useState2";
-// import Item from "./components/useState3";
-// import EffectCount from "./components/useEffect1";
-// import EffectPosition from "./components/useEffect2";
-// import EffectFetch from "./components/useEffect3";
-// import EffectFetchById from "./components/useEffect4";
-// import ComponentP from "./components/useContextP";
-// import CounterReducer from "./components/useReducer1";
-// import ComponentA from "./components/useReducerA";
-// import ComponentB from "./components/useReducerB";
-// import { WrapComponent } from "./components/useCallback";
-// import Check from "./components/useMemo";
-// import FocusInput from "./components/useRef1";
-import CountWithRef from "./components/useRef2";
+// import Counter from "./components/useState/useState1";
+// import From from "./components/useState/useState2";
+// import Item from "./components/useState/useState3";
+
+// import EffectCount from "./components/useEffect/useEffect1";
+// import EffectPosition from "./components/useEffect/useEffect2";
+// import EffectFetch from "./components/useEffect/useEffect3";
+// import EffectFetchById from "./components/useEffect/useEffect4";
+
+// import ComponentP from "./components/useContext/useContextP";
+
+// import CounterReducer from "./components/useReducer/useReducer1";
+// import ComponentA from "./components/useReducer/useReducerA";
+// import ComponentB from "./components/useReducer/useReducerB";
+
+// import WrapComponent from "./components/useCallback/useCallback";
+
+// import Check from "./components/useMemo/useMemo";
+
+// import FocusInput from "./components/useRef/useRef1";
+import CountWithRef from "./components/useRef/useRef2";
 
 // export const UserContext = createContext();
 // export const LanguageContext = createContext();
