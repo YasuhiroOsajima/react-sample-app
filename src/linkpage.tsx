@@ -23,6 +23,9 @@ const Component: React.FC = () => (
       <li>
         <Link to={`/bootstrap`}>Bootstrap page</Link>
       </li>
+      <li>
+        <Link to={`/hooks`}>Hooks page</Link>
+      </li>
     </ul>
   </>
 );

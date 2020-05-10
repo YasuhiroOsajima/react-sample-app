@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Row } from "../data/data_type";
+import { Row } from "./data/data_type";
 
 const Component: React.FC<Row> = props => (
   <tr>

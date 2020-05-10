@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import Table from "./table";
-import { rows } from "../data/mock_data";
+import { rows } from "./data/mock_data";
 
 const Component: React.FC = () => (
   <React.StrictMode>

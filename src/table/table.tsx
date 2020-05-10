@@ -2,7 +2,7 @@ import * as React from "react";
 
 import Thead from "./thead";
 import Tbody from "./tbody";
-import { Rows } from "../data/data_type";
+import { Rows } from "./data/data_type";
 
 import "./table.css";
 
