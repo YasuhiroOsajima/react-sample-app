@@ -24,7 +24,11 @@ import React from "react";
 // import Check from "./components/useMemo/useMemo";
 
 // import FocusInput from "./components/useRef/useRef1";
-import CountWithRef from "./components/useRef/useRef2";
+// import CountWithRef from "./components/useRef/useRef2";
+
+// import DocTitleUpdateOne from "./components/CustomHooks/CustomHooks1A";
+// import DocTitleUpdateTwo from "./components/CustomHooks/CustomHooks1B";
+import Form from "./components/CustomHooks/CustomHooks2A";
 
 // export const UserContext = createContext();
 // export const LanguageContext = createContext();
@@ -43,7 +47,10 @@ function App() {
       {/* <WrapComponent /> */}
       {/* <Check /> */}
       {/* <FocusInput /> */}
-      <CountWithRef />
+      {/* <CountWithRef /> */}
+      {/* <DocTitleUpdateOne /> */}
+      {/* <DocTitleUpdateTwo /> */}
+      <Form />
     </div>
   );
 
