@@ -15,7 +15,8 @@ import React from "react";
 // import CounterReducer from "./components/useReducer1";
 // import ComponentA from "./components/useReducerA";
 // import ComponentB from "./components/useReducerB";
-import { WrapComponent } from "./components/useCallback";
+// import { WrapComponent } from "./components/useCallback";
+import Check from "./components/useMemo";
 
 // export const UserContext = createContext();
 // export const LanguageContext = createContext();
@@ -31,7 +32,8 @@ function App() {
       {/* <EffectFetch /> */}
       {/* <EffectFetchById /> */}
       {/* <CounterReducer /> */}
-      <WrapComponent />
+      {/* <WrapComponent /> */}
+      <Check />
     </div>
   );
 
